@@ -1,0 +1,23 @@
+{
+  "name": "YOUR_APP_NAME",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.2.x",
+    "express": "2.5.x",
+    "connect-assets": "2.1.x",
+    "jade": "*",
+    "coffeekup": "*",
+    "stylus": "*",
+    "underscore": "*",
+    "sugar": "*",
+    "log": "*",
+    "socket.io": "0.9.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "node-dev": "*",
+    "should": "*"
+  },
+  "engine": "node ~> 0.6.x"
+}

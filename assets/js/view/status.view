@@ -1,0 +1,12 @@
+(->
+  class @StatusView extends @View
+
+    constructor:->
+      @$el = $("div#status")
+      @render()
+
+    template: ->
+
+    on_status_change: (data) ->
+
+).call myapp.view
